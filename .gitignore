@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Project specific test media outputs
+Assets/input.png
+Assets/hidden.png
+
+# IDEs and editors
+.vscode/
+.idea/
