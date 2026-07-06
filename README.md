@@ -34,7 +34,7 @@ stego-lsb/
 
 ## Quick Start
 
-# Option A: Web-Based via GitHub Codespaces (No Local Installation)
+-> Option A: Web-Based via GitHub Codespaces (No Local Installation)
   Click the green Code button at the top of this repository.
 
   Select the Codespaces tab, then click Create codespace on main.
@@ -42,21 +42,21 @@ stego-lsb/
   Once the environment spins up, run the execution script directly in the terminal panel:
     pip install Pillow && python main.py
 
-# Option B: Local Machine Set Up
-# Install the image processing dependency
+-> Option B: Local Machine Set Up
+-> Install the image processing dependency
 pip install Pillow
 
-# Run the built-in demo execution loop
+-> Run the built-in demo execution loop
 python main.py
 
 ## Usage API
 To integrate this directly into your own automation apps, import the encoding and decoding components:
 from main import encode_image, decode_image
 
-# Embed text inside an image
+-> Embed text inside an image
 encode_image("my_source.png", "Secret Payload Here", "secured_output.png")
 
-# Extract text from an image
+-> Extract text from an image
 secret_message = decode_image("secured_output.png")
 print(secret_message)
 
