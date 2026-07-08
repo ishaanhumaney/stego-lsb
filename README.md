@@ -22,7 +22,7 @@ StegoLSB alters only the lowest bit—the Least Significant Bit—of these integ
 * **Environment:** Cross-platform (runs anywhere Python can run).
 
 ## Project Structure
-
+```bash
 stego-lsb/
 ├── .github/workflows/
 │   └── ci.yml             # Automatic validation and self-test suite
@@ -31,7 +31,7 @@ stego-lsb/
 ├── .gitignore             # Filters cache blocks and local test canvases
 ├── README.md              # Documentation
 └── main.py                # Core encoder/decoder runtime engine
-
+```
 ## Quick Start
 
 -> Option A: Web-Based via GitHub Codespaces (No Local Installation)
