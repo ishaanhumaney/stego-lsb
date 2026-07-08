@@ -24,8 +24,6 @@ StegoLSB alters only the lowest bit—the Least Significant Bit—of these integ
 ## Project Structure
 ```bash
 stego-lsb/
-├── .github/workflows/
-│   └── ci.yml             # Automatic validation and self-test suite
 ├── Assets/
 │   └── .gitkeep           # Target space for input/output images
 ├── .gitignore             # Filters cache blocks and local test canvases
